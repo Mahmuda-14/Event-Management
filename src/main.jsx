@@ -16,6 +16,7 @@ import AuthProvider from './Components/Provider/AuthProvider';
 import Details from './Components/Details/Details';
 import Contact from './Components/Contact';
 import Private from './Components/Private';
+import Private2 from './Components/Private2';
 
 
 
@@ -45,12 +46,12 @@ const router = createBrowserRouter([
       },
       {
         path:'/speaker',
-        element: <Speakers></Speakers>
+        element: <Private2><Speakers></Speakers></Private2>
       
       } ,
       {
         path:'/contact',
-        element: <Contact></Contact>
+        element: <Private2><Contact></Contact></Private2>
       }
     ]
   },
