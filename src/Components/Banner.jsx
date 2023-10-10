@@ -4,9 +4,11 @@ import 'aos/dist/aos.css';
 const Banner = () => {
     AOS.init();
     return (
-
+        // margin-left: 19px;
+        // margin-right: 28px;
        
-        <div className="hero min-h-screen " style={{ backgroundImage: `url(${cool})` }} data-aos="flip-right">
+      <div className='sm:ml-[19px] sm:mr-7 lg:m-0'>
+          <div className="hero min-h-screen " style={{ backgroundImage: `url(${cool})` }} data-aos="flip-right">
             <div className="hero-overlay bg-opacity-10"></div>
             <div className="hero-content text-left text-neutral-content">
                 <div className="text-center items-center" data-aos="fade-up">
@@ -17,6 +19,7 @@ const Banner = () => {
                 </div>
             </div>
         </div>
+      </div>
 
     );
 };

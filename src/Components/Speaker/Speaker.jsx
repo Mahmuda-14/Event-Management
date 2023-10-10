@@ -16,9 +16,9 @@ const Speaker = () => {
 
                       
 
-                        <div className='flex  justify-around gap-9 rounded'>
+                        <div className='lg:flex justify-around  gap-9 rounded'>
                             <div data-aos="fade-down">
-                                <div className="card w-96 glass">
+                                <div className="card w-96 glass sm:mb-[27px]">
                                 <img className="rounded-xl" src={speak1} alt="" />
                                     <div className="card-body items-center text-center bg-blue-950">
                                         <h2 className="card-title">Adam Leno</h2>
@@ -30,7 +30,7 @@ const Speaker = () => {
 
                             </div>
                             <div data-aos="fade-up">
-                                <div className="card w-96 glass">
+                                <div className="card w-96 glass sm:mb-[27px]">
                                 <img className="rounded-xl" src={speak2} alt="" />
                                     <div className="card-body items-center text-center  bg-blue-950">
                                         <h2 className="card-title">Anne Claire</h2>
@@ -42,7 +42,7 @@ const Speaker = () => {
 
                             </div>
                             <div data-aos="fade-down">
-                                <div className="card w-96 glass">
+                                <div className="card w-96 glass sm:mb-[27px]">
                                 <img className="rounded-xl" src={speak3} alt="" />
                                     <div className="card-body items-center text-center  bg-blue-950">
                                         <h2 className="card-title">Garrett Ventura</h2>

@@ -15,7 +15,7 @@ const Speakers = () => {
           <div>
           <h2 className='text-center items-center mt-8 font-bold text-4xl text-sky-800'>Meet Keynotes Speakers</h2>
             <hr className=' mx-96 mt-10 px-8' />
-            <div className='grid grid-cols-3'>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-3'>
             <div className="card card-side bg-base-100 shadow-xl my-20 mx-5 rounded-xl" data-aos="fade-up">
                 <img className='w-[20.5rem] h-[12.5rem] rounded-xl' src={spaek1}  />
                 <div className="card-body">

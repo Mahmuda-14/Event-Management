@@ -19,13 +19,13 @@ const NavBar = () => {
     const navlinks = <>
 
 
-        <ul className="flex m-5 text-xl">
+        <ul className="flex sm:ml-[8.25rem] sm:mb-7  lg:m-5 text-xl">
 
             <li><NavLink className="m-4 text-sky-600 hover:text-sky-600 hover:underline" to='/'>Home</NavLink></li>
             <li> <NavLink className="m-4 text-sky-600 hover:text-red-600 hover:underline " to='/speaker'>Speaker</NavLink></li>
             <li><NavLink className="m-4 text-sky-600 hover:text-red-600 hover:underline " to='/contact'>Contact US</NavLink></li>
         </ul>
-        <ul className="flex ml-[230px]">
+        <ul className="flex sm:ml-[128px] sm:mb-10 lg:ml-[230px]">
             {
                 user ?
                 
@@ -35,7 +35,7 @@ const NavBar = () => {
               </div>
                     
                     :
-                    <li className="flex gap-1"><FaLock className="mt-[3px]"></FaLock> <NavLink className="mr-4  -mt:[4px]" to='/login'>Login</NavLink></li>
+                    <li className="flex gap-1 sm:ml-[113px]"><FaLock className="mt-[3px]"></FaLock> <NavLink className="mr-4 lg:-mt:[4px]" to='/login'>Login</NavLink></li>
             }
 
 
@@ -51,16 +51,17 @@ const NavBar = () => {
 
     return (
         <div>
-            <div className="navbar  bg-[#E5E5E533]" >
+            <div className=" lg:navbar " >
+           
 
-                <div className="navbar-start">
+                <div className="sm:ml-[97px] lg:navbar-start">
 
                     <div className="items-start m-11">
                         <div className="flex gap-4">
                             <img src={logo_2} alt="" />
                             <h2 className=" text-3xl font-bold  " >CodeCRAFTERS</h2>
                         </div>
-                        <h4 className="ml-[87px] -mt-[28px] font-semibold text-left text-yellow-500">EVENT MANAGEMENT</h4>
+                        <h4 className="sm:ml-[89px] sm:-mt-[19px] sm:-mr-[78px] lg:ml-[87px] lg:-mt-[28px] font-semibold text-left text-yellow-500">EVENT MANAGEMENT</h4>
 
                     </div>
 

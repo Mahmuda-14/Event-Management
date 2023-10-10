@@ -8,7 +8,7 @@ import speak from '../assets/Speaker-6.jpg'
 const Conference = () => {
     return (
         <div>
-            <div className="flex justify-around   shadow-xl" style={{  backgroundImage: `url(${speak})`  }}>
+            <div className="sm:-mt-[111px] lg:mt-0 lg:flex justify-around shadow-xl" style={{  backgroundImage: `url(${speak})`  }}>
                 <div className="ml-[263px] mt-[110px] mr-[18px] gap-5 " data-aos="fade-right">
                
                     <p className=" text-lg text-white my-5">Events Management</p>
@@ -16,7 +16,7 @@ const Conference = () => {
                     <button className="btn bg-blue-700 text-white border-none">BUY TICKET</button>
                 </div>
 
-                <div className="card-body grid grid-cols-2 "  data-aos="fade-up">
+                <div className="card-body sm:grid-cols-2 sm:pl-[155px]  lg:grid grid-cols-2 lg:gap-10 "  data-aos="fade-up">
                 {/* ml-[530px] */}
                         <div className="card-body w-[21rem] h-[13rem] bg-violet-200 shadow-xl rounded-xl items-center">
                             <img className='w-[6.5rem] h-[5.5rem] ' src={hand1} alt="" />
