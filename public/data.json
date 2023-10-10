@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "TechCon 2023",
+      "image": "https://i.ibb.co/1b9vdwY/card-1.jpg",
+      "price": "$299",
+      "date" : "2 November 2023",
+      "time":"20:00pm - 22:00pm",
+      "description": "Join us for TechCon 2023, the premier tech conference of the year. Explore the latest trends in technology and network with industry leaders."
+    },
+    {
+      "id": 2,
+      "name": "CodeCampX",
+      "image": "https://i.ibb.co/zXfJT8x/card-2.jpg",
+      "price": "$149",
+      "date" : "3 November 2023",
+      "time":"20:00pm - 22:00pm",
+      "description": "CodeCampX is the ultimate coding event for developers. Learn from experts, attend workshops, and level up your coding skills."
+    },
+    {
+      "id": 3,
+      "name": "AI Summit 2023",
+      "image": "https://i.ibb.co/NWF6Qf8/card-3.jpg",
+      "price": "Free",
+      "date" : "6 November 2023",
+      "time":"20:00pm - 22:00pm",
+      "description": "The AI Summit 2023 is a free online conference focusing on artificial intelligence. Dive deep into AI innovations and applications."
+    },
+    {
+      "id": 4,
+      "name": "Cybersecurity Expo",
+      "image": "https://i.ibb.co/rGYVQ1s/card-4.jpg",
+      "price": "$199",
+      "date" : "9 November 2023",
+      "time":"20:00pm - 22:00pm",
+      "description": "Enhance your cybersecurity knowledge at the Cybersecurity Expo. Discover the latest tools and strategies to protect your data."
+    },
+    {
+      "id": 5,
+      "name": "WebDev World Conference",
+      "image": "https://i.ibb.co/xjRZS7G/card-5.webp",
+      "price": "$249",
+      "date" : "10 November 2023",
+      "time":"20:00pm - 22:00pm",
+      "description": "WebDev World Conference is a must-attend event for web developers. Learn about web technologies, frameworks, and best practices."
+    },
+    {
+      "id": 6,
+      "name": "IoT Innovators Summit",
+      "image": "https://i.ibb.co/zxxRb1G/card-6.webp",
+      "price": "$199",
+      "date" : "12 November 2023",
+      "time":"20:00pm - 22:00pm",
+      "description": "Join us at the IoT Innovators Summit to explore the latest developments in the Internet of Things (IoT) and its impact on industries."
+    }
+  ]
+  

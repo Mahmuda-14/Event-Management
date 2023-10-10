@@ -1,10 +1,64 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
 
+import './index.css'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Root from './Components/Root.jsx';
+import ErrorPage from './Components/ErrorPage';
+import Home from './Components/Home';
+import Login from './Components/Login';
+import Register from './Components/Register';
+import Speakers from './Components/Speaker/Speakers';
+import AuthProvider from './Components/Provider/AuthProvider';
+import Details from './Components/Details/Details';
+import Contact from './Components/Contact';
+import Private from './Components/Private';
+
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
+    children:[
+      {
+        path:'/',
+        element: <Home></Home>
+      },
+      {
+        path:'/login',
+        element: <Login></Login>
+      },
+      {
+        path:'/element/:id',
+        element:<Private><Details></Details></Private>,
+        loader:() => fetch('../public/data.json')
+
+      },
+      {
+        path:'/register',
+        element: <Register></Register>
+      },
+      {
+        path:'/speaker',
+        element: <Speakers></Speakers>
+      
+      } ,
+      {
+        path:'/contact',
+        element: <Contact></Contact>
+      }
+    ]
+  },
+]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+ <AuthProvider><RouterProvider router={router} /></AuthProvider>
+    
+  
   </React.StrictMode>,
 )
