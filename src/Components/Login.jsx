@@ -51,9 +51,7 @@ const Login = () => {
 
     return (
         
-
-
-           
+     
          <div className=" bg-red-100 mx-[23rem] py-9 rounded-xl" >
            <h2 className="text-3xl my-10 text-center">Log in to your Account</h2>
            
